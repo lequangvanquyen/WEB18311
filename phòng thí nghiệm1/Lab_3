@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+</head>
+<body>
+    <div class="Programming language">
+        <h1 align="center">
+            Programming language
+        </h1>
+        <p>
+            A programming language is a system of notation for writing computer programs.[1] Most programming languages are text-based formal languages, but they may also be graphical. They are a kind of computer language.
+
+The description of a programming language is usually split into the two components of syntax (form) and semantics (meaning), which are usually defined by a formal language. Some languages are defined by a specification document (for example, the C programming language is specified by an ISO Standard) while other languages (such as Perl) have a dominant implementation that is treated as a reference. Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common.
+
+Programming language theory is the subfield of computer science that studies the design, implementation, analysis, characterization, and classification of programming languages.
+        </p>
+    </div>
+    <div class="Scripting language">
+        <h1 align="center">
+            Scripting language
+        </h1>
+        <p>
+            A scripting language or script language is a programming language that is used to manipulate, customize, and automate the facilities of an existing system.[1] Scripting languages are usually interpreted at runtime rather than compiled.
+
+A scripting language's primitives are usually elementary tasks or API calls[clarification needed], and the scripting language allows them to be combined into more programs. Environments that can be automated through scripting include application software, text editors, web pages, operating system shells, embedded systems, and computer games. A scripting language can be viewed as a domain-specific language for a particular environment; in the case of scripting an application, it is also known as an extension language. Scripting languages are also sometimes referred to as very high-level programming languages, as they sometimes operate at a high level of abstraction, or as control languages, particularly for job control languages on mainframes.
+
+The term scripting language is also used in a wider sense, namely, to refer to dynamic high-level programming languages in general; some are strictly interpreted languages, while others use a form of compilation. In this context, the term script refers to a small program in such a language; typically, contained in a single file, and no larger than a few thousand lines of code.
+
+The spectrum of scripting languages ranges from small to large, and from highly domain-specific language to general-purpose programming languages. A language may start as small and highly domain-specific and later develop into a portable and general-purpose language; conversely, a general-purpose language may later develop special domain-specific dialects.
+        </p>
+    </div>
+    <div class="Markup language">
+        <h1 align="center">
+            Markup language
+        </h1>
+        <p>
+            Markup language refers to a text-encoding system consisting of a set of symbols inserted in a text document to control its structure, formatting, or the relationship between its parts.[1] Markup is often used to control the display of the document or to enrich its content to facilitating automated processing. A markup language is a set of rules governing what markup information may be included in a document and how it is combined with the content of the document in a way to facilitate use by humans and computer programs. The idea and terminology evolved from the "marking up" of paper manuscripts (i.e., the revision instructions by editors), which is traditionally written with a red pen or blue pencil on authors' manuscripts.[2]
+
+Older markup languages, which typically focus on typography and presentation, include troff, TeX, and LaTeX. Scribe and most modern markup languages, for example XML, identify document components (for example headings, paragraphs, and tables), with the expectation that technology such as stylesheets will be used to apply formatting or other processing.
+
+Some markup languages, such as the widely used HTML, have pre-defined presentation semantics, meaning that their specification prescribes some aspects of how to present the structured data on particular media. HTML, like DocBook, Open eBook, JATS, and many others is based on the markup meta-languages SGML and XML. That is, SGML and XML allow designers to specify particular schemas, which determine which elements, attributes, and other features are permitted, and where.
+
+One extremely important characteristic of most markup languages is that they allow intermingling markup with document content such as text and pictures. For example, if a few words in a sentence need to be emphasized, or identified as a proper name, defined term, or another special item, the markup may be inserted between the characters of the sentence. This is quite different structurally from traditional databases, where it is by definition impossible to have data that is within a record but not within any field. Furthermore, markup for human-readable texts must maintain order: it would not suffice to make each paragraph of a book into a "paragraph" record, where those records do not maintain order.
+        </p>
+    </div>
+</body>
+</html>
