@@ -48,3 +48,7 @@ nav>a:hover{
     color: yellow;
     text-decoration: underline;
 }
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
