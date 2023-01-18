@@ -47,8 +47,35 @@ nav>a{
 nav>a:hover{
     color: yellow;
     text-decoration: underline;
+    font-weight: bold;
+}
+nav>a:visited{
+    color: green;
 }
 iframe[name=page]{
     width: 100%;
     min-height: 400px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 20px;  
+    font-variant: small-caps;
+}
+
+li>a{
+    text-decoration: none;
+}
+
+li>a:hover{
+    text-decoration: underline;
+    color: rgb(231, 30, 30);
+    font-weight: bold;
+}
+
+li>a:visited{
+    color: green;
 }
