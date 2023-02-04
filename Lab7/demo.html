@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            background-color: #ed1c24;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        #main-menu {
+            display: flex;
+            list-style: none;
+            margin: 0px;
+            margin: 0px;
+        }
+
+        #main-menu li {
+            position: relative;
+        }
+
+        #main-menu li a {
+            color: white;
+            display: block;
+            padding: 18px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #main-menu ul.sub-menu {
+            position: absolute;
+            background-color: rgb(22, 21, 21);
+            padding: 15px 0px;
+            list-style: none;
+            width: 200px;
+        }
+
+        #main-menu ul.sub-menu li a {
+            padding: 8px 15px;
+            border-bottom: 1px solid #4e4949;
+        }
+
+        #main-menu ul.sub-menu li:hover a{
+            border-bottom: 1px solid #837777;
+        }
+
+        #main-menu ul.sub-menu li:last-child a {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav class="container">
+                <ul id="main-menu">
+                    <li><a href="">viet nam</a>
+                        <ul class="sub-menu">
+                            <li><a href="">aff cup</a></li>
+                            <li><a href="">u23 quoc gia</a></li>
+                            <li><a href="">bong da nu</a></li>
+                            <li><a href="">v-league</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">anh</a></li>
+                    <li><a href="">tay ban nha</a></li>
+                    <li><a href="">phap</a></li>
+                    <li><a href="">bo dao nha</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
