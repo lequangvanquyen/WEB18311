@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 .container{
-    max-width: 1000px;
+    max-width:1000px;
     margin: 0 auto;
 }
 .container>header{
@@ -14,7 +14,7 @@ body{
 }
 .container>nav{
     line-height: 40px;
-    background-color: orangered;
+    background-color: rgb(225, 52, 4);
     color: white;
     text-align: center;
     font-variant: small-caps;
