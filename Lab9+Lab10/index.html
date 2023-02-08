@@ -19,12 +19,18 @@
 
         form {
             width: 450px;
-            min-height: 100vh;
             margin: 0 auto;
             padding: 20px;
             box-shadow: 0px 0px 5px rgb(166, 158, 158);
             border-radius: 10px;
             color: #606770;
+        }
+
+        form>h1 {
+            text-align: center;
+            color: #1877f2;
+            font-size: 60px;
+            margin-bottom: 20px;
         }
 
         .title {
@@ -103,6 +109,20 @@
             width: 30%;
         }
 
+        form>p{
+            font-size: 11px;
+            padding-top: 10px;
+        }
+
+        p>a{
+            text-decoration: none;
+            color: #385898;
+        }
+
+        p>a:hover{
+            text-decoration: underline;
+        }
+
         input[type="submit"] {
             height: 35px;
             width: 50%;
@@ -133,7 +153,7 @@
 
     <form action="" method="post" enctype="multipart/form-data">
 
-        <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="logo">
+        <h1>facebook</h1>
         <div class="title">
             <h2>Tạo tài khoản mới</h2>
             <h5>Nhanh chống và dễ dàng</h5> <br>
@@ -221,9 +241,15 @@
         <label class="hai" for=""><input type="radio" name="gender">Khác</label>
 
         <br>
+        <p>
+            Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook. <a href="">Tìm hiểu thêm.</a>
+            <br><br>
+            Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="">Điều khoản, Chính sách quyền riêng tư</a> và <a href="">Chính sách cookie</a> của
+            chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+        </p>
         <input type="submit" value="Đăng kí">
         <br><br>
-        <h3><a href="">Bạn đã có tài khoản ư?</a></h3>
+        <h3><a href="">Bạn đã có tài khoản ư ?</a></h3>
 
     </form>
 
