@@ -89,6 +89,11 @@ table .user img {
   flex-shrink: 0;
 }
 
+table .user .text{
+  display: flex;
+  flex-direction: column;
+}
+
 .table {
   overflow: auto;
   border: 1px solid #f0f4f8;
