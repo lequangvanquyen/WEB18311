@@ -11,19 +11,11 @@ img {
   max-width: 100%;
 }
 
-body,
-input,
-button,
-textarea,
-select {
-  outline: none;
-  font-size: 12px;
-  line-height: 1.5;
-  font-family: "Poppins", sans-serif;
-}
-
 body {
   padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 table {
@@ -89,7 +81,7 @@ table .user img {
   flex-shrink: 0;
 }
 
-table .user .text{
+table .user .text {
   display: flex;
   flex-direction: column;
 }
