@@ -2,60 +2,167 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/tkb.css">
-  <title>Thời khóa biểu</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tkb.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Tin Tức</title>
 </head>
 
 <body>
-  <div class="schedule">
-    <h2>Thời khóa biểu</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Thứ 2</th>
-          <th>Thứ 3</th>
-          <th>Thứ 4</th>
-          <th>Thứ 5</th>
-          <th>Thứ 6</th>
-          <th>Thứ 7</th>
-          <th>Chủ nhật</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Toán</td>
-          <td>Lí</td>
-          <td>Hóa</td>
-          <td>Văn</td>
-          <td>Sử</td>
-          <td>Địa</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Tin</td>
-          <td>Tiếng Anh</td>
-          <td>Giáo dục</td>
-          <td>Thể dục</td>
-          <td>Toán</td>
-          <td>Văn</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Sử</td>
-          <td>Văn</td>
-          <td>Tin</td>
-          <td>Tiếng Anh</td>
-          <td>Âm Nhạc</td>
-          <td>Toán</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div id="container">
+        <!-- star header -->
+        <header>
+            <img src="../images/THPT-Trần-Hưng-Đạo.gif" alt="THPT-Trần-Hưng-Đạo">
+        </header>
 
+        <marquee behavior="scroll" direction="">
+            HỌC TẬP VÀ LÀM THEO TƯ TƯỞNG ĐẠO ĐỨC, PHONG CÁCH HỒ CHÍ MINH
+        </marquee>
+
+        <!-- star nav -->
+        <nav>
+            <div id="nav">
+                <ul class="hmenu">
+                    <li class="icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                            </svg></a></li>
+                    <div class="haha">
+                        <div class="letf">
+                            <li><a href="index.html">trang chủ</a></li>
+                            <li><a href="new.html">Tin Tức</a></li>
+                            <li><a href="tkb.html">thời khóa biểu</a></li>
+                            <li><a href="#">ý kiến - góp ý</a></li>
+                            <li><a href="#">liên hệ</a>
+                                <ul class="submenu">
+                                    <li><a href="#">phòng đào tạo</a></li>
+                                    <li><a href="#">đoàn trường</a></li>
+                                    <li><a href="#">Thư viện</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="right">
+                            <ul>
+                                <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- content -->
+        <div class="content">
+            <div class="letf">
+                <ul>
+                    <li class="top">
+                        <a href="#">Giới Thiệu</a>
+                    </li>
+                    <li><a href="#">Giới thiệu chung</a></li>
+                    <li><a href="#">Cơ cấu tổ chức</a></li>
+                    <li><a href="#">Cơ sở vật </a></li>
+                    <li><a href="#">Lịch sử nhà trường</a></li>
+                    <li><a href="#">Thống kê</a></li>
+                </ul>
+                <a href=""><img src="../images/ThuVienAnh.jpg" alt=""></a>
+                <ul>
+                    <li class="top">
+                        <a href="#">Văn Bản - Công Văn</a>
+                    </li>
+                    <li><a href="#">Thông báo văn bản</a></li>
+                    <li><a href="#">Văn bản pháp quy</a></li>
+                </ul>
+                <a href=""><img src="../images/TinTucSuKien.jpg" alt=""></a>
+                <a href=""><img src="../images/YKienGopY.jpg" alt=""></a>
+                <ul>
+                    <li class="top">
+                        <a href="#">Kế Hoạch</a>
+                    </li>
+                    <li><a href="#">Kế hoạch tuần</a></li>
+                    <li><a href="#">Kế hoạch quý - năm</a></li>
+                </ul>
+                <a href=""><img src="../images/ThiDuaKhenThuong.jpg" alt=""></a>
+                <ul>
+                    <li class="top">
+                        <a href="#">Tổ chức đoàn thể</a>
+                    </li>
+                    <li><a href="#">Công đoàn cơ sở</a></li>
+                    <li><a href="#">Ban phụ huynh học sinh</a></li>
+                    <li><a href="#">Đoàn TNCS HCM</a></li>
+                </ul>
+                <a href=""><img src="../images/SGD_QB.jpg" alt=""></a>
+                <ul>
+                    <li class="top">
+                        <a href="#">Thông tin tuyển sinh</a>
+                    </li>
+                    <li><a href="#">Kê hoạch tuyển sinh</a></li>
+                    <li><a href="#">Danh sách dự tuyển</a></li>
+                    <li><a href="#">Kết quả tuyển sinh</a></li>
+                </ul>
+            </div>
+            <!-- start Main -->
+            <div class="main">
+                <div class="schedule">
+                    <h2>Thời khóa biểu</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Thứ 2</th>
+                                <th>Thứ 3</th>
+                                <th>Thứ 4</th>
+                                <th>Thứ 5</th>
+                                <th>Thứ 6</th>
+                                <th>Thứ 7</th>
+                                <th>Chủ nhật</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Toán</td>
+                                <td>Lí</td>
+                                <td>Hóa</td>
+                                <td>Văn</td>
+                                <td>Sử</td>
+                                <td>Địa</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Tin</td>
+                                <td>Tiếng Anh</td>
+                                <td>Giáo dục</td>
+                                <td>Thể dục</td>
+                                <td>Toán</td>
+                                <td>Văn</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Sử</td>
+                                <td>Văn</td>
+                                <td>Tin</td>
+                                <td>Tiếng Anh</td>
+                                <td>Âm Nhạc</td>
+                                <td>Toán</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h5>
+                TRƯỜNG THPT TRẦN HƯNG ĐẠO
+            </h5>
+            <span>
+                Địa chỉ: Hưng Thuỷ - Lệ Thuỷ - Quảng Bình
+            </span>
+            <p>
+                Email: thpt_tranhungdao@quangbinh.edu.vn
+            </p>
+        </footer>
 </body>
 
 </html>
